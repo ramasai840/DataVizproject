@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Climate Chronicles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        /* .nav {
+            padding: 0;
+            margin: 0;
+            background-color: #444;
+        }
+        .nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+        } */
+        /* .nav a:hover {
+            background-color: #ddd;
+            color: black;
+        } */
+        .nav {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, #0077b6, #0096c7, #00b4d8, #48cae4, #90e0ef, #ade8f4, #caf0f8, #ffddd2, #ffb4a2, #ff9292, #ff7171, #ff6161);
+    text-align: center;
+    /* box-shadow: 0 2px 4px rgba(0,0,0,0.1); */
+    background-image: url('assets/bg.png');
+
+}
+.nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+.nav a:hover {
+    background-color: rgba(255,255,255,0.3);
+}
+        .content {
+            padding: 20px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Climate Chronicles</h1>
+</div>
+
+
+
+
+<div class="nav">
+
+    <a href="index.html">Home</a>
+    <a href="relatedworks.html">Related Works</a>
+    <a href="Implementation.html">Implementation Steps</a>
+    <a href="temperature.html">Temperature Anomalies </a>
+    <a href="carbon_emissions.html">Carbon Emissions</a>
+    <a href="sealevel.html">Sea levels</a>
+    <a href="futureworks.html">Future Works</a>
+    <a href="references.html">References</a>
+
+
+
+  </div>
+
+<div class="content" id="home">
+    <h2>Abstract</h2>
+    <p>Throughout the past ten years, the global climate has seen several considerable changes,
+         with many key causes being chosen as culprits for the change. The main questions surrounding 
+         this topic include what is affecting the climate and by how much, how much global temperatures
+          are changing compared to previous years, and what are the implications of the rapidly changing 
+          climate. Extensive research has already been performed by professionals who have dedicated their 
+          jobs to answering those very questions, and there are databases containing raw data for every 
+          measurable aspect of the globe that could be linked to climate change. News articles and blog 
+          posts then use that data to create visualizations to spread that data to a wider audience. 
+          The goal of this project is similar to those sites, which is to visualize the number of causes
+           and effects that are linked to climate change and how they are linked. To accomplish this, 
+           we created the visualizations using <a href="temperature.html">Heatmaps - Figure 1 </a>,
+           <a href="carbon_emissions.html">choropleth maps Figure 2.</a>, <a href="sealevel.html">small multiples Figure 3 a</a>, and <a href="sealevel.html">correlation mappings Figure 4.</a>
+        to solve two major tasks.
+        </p>
+</div>
+
+<!-- <div class="content" id="team">
+    <h2>Team Details</h2>
+    <p>Introduce your team here. Mention the names, roles, and contributions of each team member.</p>
+</div> -->
+
+<div class="content" id="home">
+    <h2>Introduction</h2>
+    <p>There are numerous causes and effects that have been attributed to climate change. So much so that including all of them would stretch the scope of this project far too thin to sufficiently focus on them all. For that reason, we decided to focus on the attributes that we determined to be the most important. The three effects that we chose are carbon dioxide emissions, which is a number corresponding to the amount of carbon dioxide emitted by each country, temperature anomaly, which is measured as the deviation from the mean temperature of a specific time period, and sea level, which is measured as the change in sea level from one time period to the next.
+    </p>
+    <p>In order to reach as many people as possible, the main intended users for these visualizations would be the general public. Because the effects of climate change are not limited to a single area, having our visualizations be easily accessible and understandable by highlighting the most important information is a top priority. While the goal is to be as wide-reaching as possible, it does require that the user has a basic understanding of the topic of climate change. For example, users would need to understand what carbon dioxide emissions are and the consequences of releasing large amounts of carbon dioxide are. However, users are not required to know how carbon dioxide is being emitted, nor do they need to know what company or household is emitting the most. 
+    </p>
+    <p>While there are numerous online visualizations surrounding the topic of climate change, they frequently have flaws that hinder their effectiveness. For example, many lack user interaction, use color poorly, or have inconsistent scaling. Our visualizations aim to avoid those common problems that many online visualizations contain by implementing user interaction such as zooming and panning, facets such as small multiples and juxtaposition, and color that is culturally significant and that emphasizes important points in the data. </p>
+
+    <p>To drive the creation of our visualizations, we determined two potential tasks that users may want to solve. The first task is to identify correlations between carbon dioxide emissions and temperature anomalies by region. The second task is that users should be able to identify outliers in sea level rise between bodies of water. 
+    </p>
+</div>
+
+
+
+
+
+<div class="footer">
+    <p>Project by Spencer Suskind, Kyoung Lee, Meghana Kesena, Ram Mamidala, Seetaram Oruganti  - ©Fall 2023</p>
+</div>
+
+</body>
+</html>
