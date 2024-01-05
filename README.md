@@ -1,4 +1,4 @@
-# climatechronicles
+# Climatechronicles
 Project Website for CMSC 636/ CMSC 436
 
 Throughout the past ten years, the global climate has seen several considerable changes, with many key causes being chosen as culprits for the change. The main questions surrounding this topic include what is affecting the climate and by how much, how much global temperatures are changing compared to previous years, and what are the implications of the rapidly changing climate. Extensive research has already been performed by professionals who have dedicated their jobs to answering those very questions, and there are databases containing raw data for every measurable aspect of the globe that could be linked to climate change. 
